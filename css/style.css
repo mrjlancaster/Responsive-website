@@ -1,4 +1,5 @@
 *{
+    max-width: 100%;
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -9,16 +10,27 @@
 
 
 
-
-header{
-    background-image: url("../img/slideshow1.jpg");
+#header{
+    background-image: url('../img/slideshow1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
     width: 100%;
     display: block;
-    height: 100px;
+    height: 1000px;
+    margin: 0 auto;
+    background-attachment: fixed;
+}
+
+.inner-header{
+    width: 1000px;
+    height: 100%;
+    display: block;
     margin: 0 auto;
 }
 
 .logo-container{
+    font-size: 30px;
     height: 100%;
     display: table;
     float: left;
@@ -27,7 +39,16 @@ header{
 .logo-container h1{
     height: 100%;
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: top;
+    font-weight: 200;
+    padding: 25px 0px 0px 50px;
+}
+
+
+.logo-container h1 span{
+    font-weight: 800;
+    color: black;
+
 }
 
 .navbar{
@@ -37,6 +58,9 @@ header{
 
 
 .navbar a{
+    font-family: monospace;
+    font-size: 15px;
+    text-transform: uppercase;
     display: table;
     height: 100%;
     float: left;
@@ -44,9 +68,10 @@ header{
 }
 
 .navbar a li{
-    height: 100%;
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: top;
+    color: black;
+    padding: 50px 30px 0px 0px;
 }
 
 
@@ -57,6 +82,7 @@ header{
 
 
 #about-us{
+    width: 100%;
     background-color: #273c75;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -129,16 +155,29 @@ header{
 
 
 #projects{
+    padding: 100px;
+    text-align: center;
     background-color: #192a56;
     height: 1000px;
 }
 
 #projects .title-row-one{
+    margin: 10px;
     font-family: sans-serif;
     text-align: center;
     text-transform: uppercase;
     font-size: 25px;
+    text-align: center;
 }
+
+
+
+.row-one{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
 
 
 #projects .title-row-two{
@@ -149,6 +188,13 @@ header{
 }
 
 
+.row-two{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+   
+}
+
 
 
 /* footer section**/
@@ -156,7 +202,7 @@ header{
 
 
 
-#footer{
+footer{
     background-color: #192a56;
 }
 
@@ -164,15 +210,29 @@ header{
     padding: 40px 40px 40px 100px;
     height: 150px;
     display: grid;
-    grid-template-columns: 600px 100px 100px 100px;
-    grid-column-gap: 200px;
+    grid-template-columns: 200px 100px 100px 300px;
+    grid-column-gap: 50px;
 }
 
 
 
 
 .social ul li{
-    font-size: 35px;
+    font-size: 30px;
     display: table-cell;
     padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+
+
+
 }
