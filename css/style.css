@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    color: #ced6e0;
+}
+
+header{
+    width: 100%;
+    display: block;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.logo-container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo-container h1{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.navbar{
+    height: 100%;
+    float: right;
+}
+
+
+.navbar a{
+    display: table;
+    height: 100%;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navbar a li{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+
+/*BELOW IS ABOUT US BOX **/
+
+
+
+
+#about-us{
+    background-color: #273c75;
+    display: flex;
+    flex-direction: row;
+    height: 1000px;
+}
+
+
+
+#content{
+    padding-left: 120px;
+    display: grid;
+    grid-template-columns: 50%;
+    grid-row-gap: 60px;
+}
+
+.image-box-one{
+    position: relative;
+    top: 20%;
+}
+
+
+.header{
+    font-size: 20px;
+    font-family: monospace;
+    letter-spacing: 2px;
+    font-family: monospace;
+    padding: 150px 0px 0px 0px;
+    text-transform: uppercase;
+}
+
+
+
+
+.content p{
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+
+
+.btn{
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 15px 120px 15px 10px;
+    font-size: 15px;
+    font-family: monospace;
+    border: 1px #ced6e0 solid;
+
+}
+
+
+
+
+
+
+/* PROJECTS SECTION **/
+
+
+
+
+
+
+#projects{
+    background-color: #192a56;
+    height: 800px;
+}
+
+#footer{
+    background-color: #192a56;
+}
+
+
+
+
+/* footer section**/
+
+#footer{
+    display: grid;
+    grid-template-columns: 500px 800px;
+}
