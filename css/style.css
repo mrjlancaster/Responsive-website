@@ -4,10 +4,14 @@
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
-    color: #ced6e0;
+    color: #ffffff;
 }
 
+
+
+
 header{
+    background-image: url("../img/slideshow1.jpg");
     width: 100%;
     display: block;
     height: 100px;
@@ -124,14 +128,22 @@ header{
 
 
 
-
 #projects{
     background-color: #192a56;
-    height: 800px;
+    height: 1000px;
 }
 
-#footer{
-    background-color: #192a56;
+#projects .title-row-one{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+
+#projects .title-row-two{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
 }
 
 
@@ -139,9 +151,26 @@ header{
 
 /* footer section**/
 
+
+
+
 #footer{
+    background-color: #192a56;
+}
+
+#footer{
+    padding: 40px 40px 40px 100px;
     height: 150px;
     display: grid;
-    grid-template-columns: 200px 150px 150px 150px;
+    grid-template-columns: 600px 100px 100px 100px;
     grid-column-gap: 200px;
+}
+
+
+
+
+.social ul li{
+    font-size: 35px;
+    display: table-cell;
+    padding: 15px;
 }
