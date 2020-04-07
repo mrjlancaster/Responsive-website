@@ -54,9 +54,9 @@ header{
 
 #about-us{
     background-color: #273c75;
-    display: flex;
-    flex-direction: row;
-    height: 1000px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 900px;
 }
 
 
@@ -64,13 +64,14 @@ header{
 #content{
     padding-left: 120px;
     display: grid;
-    grid-template-columns: 50%;
-    grid-row-gap: 60px;
+    grid-template-rows: 100px 100px 100px;
+    grid-row-gap: 250px;
 }
 
 .image-box-one{
+    text-align: center;
     position: relative;
-    top: 20%;
+    top: 18%;
 }
 
 
@@ -87,9 +88,11 @@ header{
 
 
 .content p{
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 18px;
     line-height: 1.6;
 }
+
 
 
 
@@ -100,10 +103,17 @@ header{
     font-size: 15px;
     font-family: monospace;
     border: 1px #ced6e0 solid;
-
 }
 
 
+
+
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
 
 
 
@@ -130,6 +140,8 @@ header{
 /* footer section**/
 
 #footer{
+    height: 150px;
     display: grid;
-    grid-template-columns: 500px 800px;
+    grid-template-columns: 200px 150px 150px 150px;
+    grid-column-gap: 200px;
 }
