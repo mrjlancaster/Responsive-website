@@ -10,7 +10,7 @@
 
 
 
-#header{
+.index #header{
     background-image: url('../img/slideshow1.jpg');
     background-size: cover;
     background-position: center;
@@ -133,6 +133,7 @@
     font-size: 15px;
     font-family: monospace;
     border: 1px #ced6e0 solid;
+    
 }
 
 
@@ -232,9 +233,41 @@ footer{
 
 
 
+/* contact page styling**/
 
 
+.contact-page #header{
+    height: 1200px;
+    background-image: url("../img/contactpage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
 
+
+.contact-page #form{
+    height: 500px;
+    background-color: #192a56;
+    text-align: center;
+}
+
+.contact-page #form h1{
+    padding: 50px;
+    text-transform: uppercase;
+}
+
+
+.contact-page .name #name{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contact-page .name{
+    font-size: 15px;
+    font-family: monospace;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 
 
 
