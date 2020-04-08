@@ -76,6 +76,11 @@
 }
 
 
+.navbar a li:hover{
+    text-decoration: underline;
+}
+
+
 
 /*BELOW IS ABOUT US BOX **/
 
