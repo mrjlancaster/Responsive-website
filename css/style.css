@@ -11,7 +11,7 @@
 
 
 .index #header{
-    background-image: url('../img/slideshow1.jpg');
+    background-image: url('../img/architect4.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;  
@@ -241,11 +241,12 @@ footer{
     background-image: url("../img/contactpage.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
     }
 
 
 .contact-page #form{
-    height: 500px;
+    height: 550px;
     background-color: #192a56;
     text-align: center;
 }
@@ -253,6 +254,8 @@ footer{
 .contact-page #form h1{
     padding: 50px;
     text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
 }
 
 
@@ -260,14 +263,70 @@ footer{
     color: black;
     font-size: 20px;
     text-align: center;
+    padding: 3px 40px;
 }
 
 .contact-page .name{
     font-size: 15px;
-    font-family: monospace;
+    font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
+
+
+.contact-page .email #email{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 3px 40px;
+}
+
+.contact-page .email{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.contact-page .number #number{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 3px 40px;
+}
+
+.contact-page .number{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+.contact-page .button{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 20px 60px;
+    letter-spacing: 2px;
+    font-family: monospace;
+    border: 1px #ced6e0 solid;
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+
+
+.contact-page .button:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
 
 
 
