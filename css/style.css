@@ -81,6 +81,42 @@
 }
 
 
+/* slider 
+
+
+.row-one{
+    animation-name: row1;
+    animation-duration: 3s;
+}
+
+
+@keyframes row1{
+    from{transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+
+.row-two{
+    animation-name: row2;
+    animation-duration: 3s;
+}
+
+
+@keyframes row2{
+    from{transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+
+
+
+ END OF SLIDER STYLING **/
+
+
+
+
+
+
 
 /*BELOW IS ABOUT US BOX **/
 
@@ -183,7 +219,14 @@
 .row-one{
     display: flex;
     justify-content: space-around;
-    padding: 50px;
+    padding: 30px 10px;
+}
+
+
+.row-one img:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 
@@ -199,8 +242,14 @@
 .row-two{
     display: flex;
     justify-content: space-around;
-    padding: 50px;
-   
+    padding: 50px;  
+}
+
+
+.row-two img:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 
@@ -238,6 +287,17 @@ footer{
 
 .contact-info{
     font-size: 15px;
+    line-height: 23px;
+}
+
+.contact-info .tel:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.contact-info .email:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 
@@ -348,7 +408,6 @@ footer{
 
 
 @media (max-width: 768px){
-
 
 
 }
