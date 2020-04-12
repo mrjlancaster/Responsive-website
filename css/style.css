@@ -40,17 +40,14 @@
     padding: 25px 0px 0px 50px;
 }
 
-
 .logo-container h1 span{
     font-weight: 800;
     color: black;
-
 }
 
 .navbar{
     float: right;
 }
-
 
 .navbar a{
     font-family: Arial, Helvetica, sans-serif;
@@ -71,58 +68,12 @@
     right: 20px;
 }
 
-
 .navbar a li:hover{
     text-decoration: underline;
 }
 
 
-
-
-
-
-
-
-/* slider 
-
-
-.row-one{
-    animation-name: row1;
-    animation-duration: 3s;
-}
-
-
-@keyframes row1{
-    from{transform: scale(0)}
-    to {transform: scale(1)}
-}
-
-
-.row-two{
-    animation-name: row2;
-    animation-duration: 3s;
-}
-
-
-@keyframes row2{
-    from{transform: scale(0)}
-    to {transform: scale(1)}
-}
-
-
-
-
- END OF SLIDER STYLING **/
-
-
-
-
-
-
-
 /*BELOW IS ABOUT US BOX **/
-
-
 
 
 #about-us{
@@ -132,8 +83,6 @@
     grid-template-columns: 50% 50%;
     height: 1000px;
 }
-
-
 
 #content{
     padding-left: 120px;
@@ -148,7 +97,6 @@
     top: 13%;
 }
 
-
 .header{
     font-size: 18px;
     font-weight: 200;
@@ -158,18 +106,12 @@
     text-transform: uppercase;
 }
 
-
-
-
 .content p{
     font-family: sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.6;
 }
-
-
-
 
 .btn{
     text-transform: uppercase;
@@ -178,12 +120,7 @@
     font-size: 15px;
     font-family: sans-serif;
     border: 1px #ced6e0 solid;
-    
 }
-
-
-
-
 
 .btn:hover{
     background-color: white;
@@ -192,12 +129,7 @@
 }
 
 
-
-
 /* PROJECTS SECTION **/
-
-
-
 
 
 #projects{
@@ -216,22 +148,17 @@
     text-align: center;
 }
 
-
-
 .row-one{
     display: flex;
     justify-content: space-around;
     padding: 30px 10px;
 }
 
-
 .row-one img:hover{
     opacity: 0.5;
     transition: 0.5s;
     cursor: pointer;
 }
-
-
 
 #projects .title-row-two{
     font-family: sans-serif;
@@ -240,13 +167,11 @@
     font-size: 25px;
 }
 
-
 .row-two{
     display: flex;
     justify-content: space-around;
     padding: 50px;  
 }
-
 
 .row-two img:hover{
     opacity: 0.5;
@@ -255,10 +180,7 @@
 }
 
 
-
 /* footer section**/
-
-
 
 
 footer{
@@ -286,7 +208,6 @@ footer{
     font-size: 15px;
 }
 
-
 .contact-info{
     font-size: 15px;
     line-height: 23px;
@@ -302,14 +223,10 @@ footer{
     cursor: pointer;
 }
 
-
-
-
 .social ul li{
     font-size: 25px;
     padding: 5px;
 }
-
 
 
 /* contact page styling**/
@@ -323,7 +240,6 @@ footer{
     width: 100%;
     }
 
-
 .contact-page #form{
     height: 550px;
     background-color: #192a56;
@@ -336,7 +252,6 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 50;
 }
-
 
 .contact-page .name #name{
     color: black;
@@ -352,7 +267,6 @@ footer{
     letter-spacing: 2px;
 }
 
-
 .contact-page .email #email{
     color: black;
     font-size: 20px;
@@ -366,7 +280,6 @@ footer{
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-
 
 .contact-page .number #number{
     color: black;
@@ -382,10 +295,6 @@ footer{
     letter-spacing: 2px;
 }
 
-
-
-
-
 .contact-page .button{
     text-transform: uppercase;
     font-weight: 600;
@@ -399,13 +308,11 @@ footer{
     text-align: center;
 }
 
-
 .contact-page .button:hover{
     background-color: white;
     color: black;
     transition: 1s;
 }
-
 
 .contact-page #footer{
         font-family: Arial, Helvetica, sans-serif;
