@@ -8,43 +8,15 @@
     color: #ffffff;
 }
 
-
-
-
-.slider{
+.showcase{
+    background-image: url('../img/architect2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 100vh;
-    animation-name: slide;
-    animation-duration: 40s;
-    animation-iteration-count: infinite;
     background-attachment: fixed;
 }
-
-
-@keyframes slide{
-    0%{
-        background-image: url('../img/slideshow1.jpg');
-    }
-
-    25%{
-        background-image: url('../img/architect4.jpg');
-    }
-
-    50%{
-        background-image: url('../img/slideshow3.jpg');
-    }
-
-    100%{
-        background-image: url('../img/slideshow4.jpg');
-    }
-}
-
-
-
-
 
 .inner-header{
     width: 1000px;
