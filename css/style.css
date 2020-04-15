@@ -92,6 +92,7 @@ body {
     display: grid;
     grid-template-rows: 100px 100px 100px;
     grid-row-gap: 250px;
+    text-align: justify;
 }
 
 .image-box-one{
@@ -159,6 +160,10 @@ body {
     flex-wrap: wrap;
 }
 
+.row-one img {
+    padding: 10px;
+}
+
 .row-one img:hover{
     opacity: 0.5;
     transition: 0.5s;
@@ -177,6 +182,10 @@ body {
     justify-content: space-between;
     padding: 50px;  
     flex-wrap: wrap;
+}
+
+.row-two img {
+    padding: 10px;
 }
 
 .row-two img:hover{
@@ -355,7 +364,27 @@ footer{
 
     section #about-us {
         width: auto;
-        height: auto;     
+        height: auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        height: auto;
+    }
+
+    #content {
+        display: grid;
+        grid-template-rows: auto auto auto;
+        grid-row-gap: 10px;
+        max-height: 100%;
+        text-align: center;
+    }
+
+    #content .header h1 {
+        font-size: 25px;
+    }
+
+    #content .content p {
+        font-size: 17px;
+        text-align: justify;
     }
 
     section .image-box-one {
