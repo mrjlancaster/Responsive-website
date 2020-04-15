@@ -1,11 +1,14 @@
 *{
-    max-width: 100%;
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
     color: #ffffff;
+}
+
+body {
+    width: 100%;
 }
 
 .showcase{
@@ -136,7 +139,8 @@
     padding: 100px;
     text-align: center;
     background-color: #192a56;
-    height: 1000px;
+    height: auto;
+    width: auto;
 }
 
 #projects .title-row-one{
@@ -150,8 +154,9 @@
 
 .row-one{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 30px 10px;
+    flex-wrap: wrap;
 }
 
 .row-one img:hover{
@@ -169,8 +174,9 @@
 
 .row-two{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 50px;  
+    flex-wrap: wrap;
 }
 
 .row-two img:hover{
@@ -186,7 +192,7 @@
 footer{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #192a56;
-    height: 160px;
+    height: auto;
 }
 
 #footer{
@@ -323,7 +329,40 @@ footer{
 
 
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
+    html, body {
+        width: 100%;
+        margin: 0 auto;
+    }
 
+    section #about-us {
+        width: auto;
+        height: auto;     
+    }
 
+    section .image-box-one {
+        display: none;
+    }
+
+    #projects {
+        width: auto;
+    }
+
+    .row-one {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .row-one img {
+        padding: 10px;
+    }
+
+    .row-two {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .row-two img {
+        padding: 10px;
+    }
 }
