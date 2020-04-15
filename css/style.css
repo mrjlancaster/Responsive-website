@@ -335,6 +335,24 @@ footer{
         margin: 0 auto;
     }
 
+    .logo-container {
+       height: auto;
+    }
+
+    .logo-container a {
+        font-size: 60px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar .nav-link {
+        line-height: 25px;
+    }
+
+
     section #about-us {
         width: auto;
         height: auto;     
