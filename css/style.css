@@ -305,7 +305,7 @@ footer{
     letter-spacing: 2px;
 }
 
-.contact-page .button{
+ .button {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 15px;
@@ -316,12 +316,15 @@ footer{
     position: relative;
     top: 50px;
     text-align: center;
+    background: none;
+    cursor: pointer;
+    transition: 500ms;
 }
 
 .contact-page .button:hover{
     background-color: white;
     color: black;
-    transition: 1s;
+    transition: 500ms;
 }
 
 .contact-page #footer{
