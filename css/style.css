@@ -352,13 +352,7 @@ footer{
     .navbar .nav-link {
         line-height: 25px;
     }
-    
-    /* ABOUT US SECTION */
-    #about-us{
-        background-color: #273c75;
-        width: 100%;
-    }
-
+ 
     #content{
         width: 100%;
         margin: 0;
