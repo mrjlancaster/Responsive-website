@@ -126,12 +126,13 @@
     font-size: 15px;
     font-family: sans-serif;
     border: 1px #ced6e0 solid;
+    transition: 500ms;
 }
 
 .btn:hover{
     background-color: white;
     color: black;
-    transition: 1s;
+    transition: 500ms;
 }
 
 /* PROJECTS SECTION **/
